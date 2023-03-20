@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sfondo rosso */
+body {
+    background-color: #FF0000;
+    max-width: 320px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h3 {
+    color: white;
+    padding-bottom: 1rem;
+}
+
+/* Contenitore principale */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Titolo */
+.title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    padding: 0.5rem 1rem;
+    height: 100px;
+    max-width: 320px;
+    resize: none;
+    border: 1px solid white;
+    border-radius: 10px 10px 0 0;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+/* Input submit */
+button[type="submit"] {
+    background-color: white;
+    color: red;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Contenitore post */
+.post-container {
+    margin-top: 20px;
+}
+
+/* Singolo post */
+.post {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+}
+
+.post p {
+    text-align: center;
+}
+
+/* Data e ora di pubblicazione del post */
+.timestamp {
+    font-size: 12px;
+    text-align: right;
+    text-align: right;
+}
+
+.like-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.meta {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.like-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
